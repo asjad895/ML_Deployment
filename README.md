@@ -295,8 +295,11 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 - Logistic regression involves finding the **best fit S-curve** where A is the intercept and B is the regression coefficient. The output of logistic regression is a probability score.
 
 #### Random Forest Classifier
-- The random forest is a classification algorithm consisting of **many decision trees. ** It uses bagging and features randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.
-- **Linear Regression**: In this method it attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is dependent variable.
+- The random forest is a classification algorithm consisting of **many decision trees**. It uses bagging and features randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.
+
+#### Linear Regression**
+- In this method it attempts to model the relationship between two variables by fitting a linear equation to observed data. 
+- One variable is considered to be an explanatory variable, and the other is dependent variable.
 
 #### Ridge Regression ####
 - It is the method used for the analysis of multicollinearity in multiple regression data. It is most suitable when a data set contains a higher number of predictor variables than the number of observations.
