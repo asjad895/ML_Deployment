@@ -313,13 +313,14 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 - When we trained **Ridge Regression** the R2_score we got is 89%.
 
 *Finally, 2 pipelines are deployed:
-**1.Random Forest Classifier (Binary Classification)**
-**2.Ridge Regression for multi targets (EMI, ELA, ROI)**
+1. **Random Forest Classifier (Binary Classification)**
+
+2. **Ridge Regression for multi targets (EMI, ELA, ROI)**
 
 
 ## Deployment
 Our deployed app can be accessed by following link 
-([**Credit-Risk-Analysis**](https://stock-price-2.herokuapp.com/](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/))
+[**Credit-Risk-Analysis**](https://stock-price-2.herokuapp.com/](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/)
 
 ### Streamlit
 - Streamlit is an open source app framework in Python language. 
