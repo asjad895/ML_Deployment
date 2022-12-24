@@ -222,15 +222,72 @@ Majority of loan applicants are male
 
 ## Feature Engineering
 
+Features in datadset are not ready for model building as we need to treat outliers, encode categorical variables, select features which are actually contributing to prediction of target variable.
+
+**Mutual Information Scores**
+
+1. As Mutual information is univariate scoring method we can not rely much on that to removing features
+2. fetures with least scores can be useful when combined with other variables
+
+InterestAndPenaltyBalance                 0.34
+PrincipalPaymentsMade                     0.27
+PrincipalBalance                          0.25
+RecoveryStage                             0.15
+
+Above features are highly contributing towards target variable
+
+**Outliers treatment**
+
+Numerical variables were included with outliers in both direction, we treated all of them with IQR method
+
+*Method*
+
+IQR = Inter quantile range is range between 75th and 25th quantile 
+Lower bound = 25th quantile - 1.5*IQR
+Upper bound = 75th quantile + 1.5*IQR
+
+Now after defining upper and lower bound
+- For each numeric variable, we checked which values are outside of their respective bounds
+- Values less than lower bound replaced by "Lower bound" 
+- Similarly values higher than upper bound were replaced by "Upper bound"
+
+**Categorical encoding**
+
+'target', 'NewCreditCustomer','VerificationType', 'LanguageCode', 'Gender', 'Country', 'UseOfLoan','Education', 'MaritalStatus', 'EmploymentStatus','EmploymentDurationCurrentEmployer', 'OccupationArea','HomeOwnershipType', 'Restructured', 'CreditScoreEsMicroL'
+
+are the variables which are categorical i.e. "Object" datatype
+- we selected these columns for encoding inside pipeline using "make_column_selector" from sklearn.compose module
+- One Hot Encoding is used here for categorical variable encoding.
+- The reason for using this method is because some variables were ordinal categories and some were nominal categories
+    - Encoding these variables with label encoder may result in bad performance and explanability of machine learning model at the end
+- From sklearn.preprocessing module we imported and instantiated the One Hot encoder class and used inside column transformer selecting only categorical variables
+
+**Scaling the features**
+
+- We used Ridge regressior as regression algorithm to predict target variables.
+- The performance of ridge regressor will be better without any bias to higher values after using scaled features was the main intention of scaling
+- We used Standard Scaler from sklearn.preprocessing module
+
+*StandardScaler Methodology*
+
+The standard score of a sample x is calculated as:
+
+z = (x - u) / s
+
+where u is the mean of the training samples or zero if with_mean=False, and s is the standard deviation of the training samples or one if with_std=False.
+
+- We used "with_mean=False" as we wanted our features not to be centred 
+
+- We used Standard scaling inside pipeline for all the variables (Including one hot encoded target variables)
+
+
 ## Model Building
 
 
 ## Deployment
-you can access our app by following this link [stock-price-application-streamlit](https://stock-price-2.herokuapp.com/) or by click [stock-price-application-flask](https://stock-price-flask.herokuapp.com/)
+Our deployed app can be accessed by following link [Credit-Risk-Analysis]([https://stock-price-2.herokuapp.com/](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/))
 ### Streamlit
-- It is a tool that lets you creating applications for your machine learning model by using simple python code.
-- We write a python code for our app using Streamlit; the app asks the user to enter the following data (**news data**, **Open**, **Close**).
-- The output of our app will be 0 or 1 ; 0 indicates that stock price will decrease while 1 means increasing of stock price.
-- The app runs on local host.
-- To deploy it on the internt we have to deploy it to Heroku.
+- Streamlit is an open source app framework in Python language. 
+- It helps us create web apps for data science and machine learning. 
+- It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc.
 
