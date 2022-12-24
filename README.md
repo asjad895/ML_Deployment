@@ -312,7 +312,7 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 - When we trained **linear Regression** the R2_score we got is 78.46%.
 - When we trained **Ridge Regression** the R2_score we got is 89%.
 
-*Finally, 2 pipelines are deployed:
+*Finally, 2 pipelines are deployed:*
 1. **Random Forest Classifier (Binary Classification)**
 
 2. **Ridge Regression for multi targets (EMI, ELA, ROI)**
