@@ -282,6 +282,36 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 
 
 ## Model Building
+#### Metrics considered for Model Evaluation
+**Accuracy , Precision , Recall and F1 Score**
+- Accuracy: What proportion of actual positives and negatives is correctly classified?
+- Precision: What proportion of predicted positives are truly positive ?
+- Recall: What proportion of actual positives is correctly classified ?
+- F1 Score : Harmonic mean of Precision and Recall
+
+#### Logistic Regression
+- Logistic Regression helps find how probabilities are changed with actions.
+- The function is defined as P(y) = 1 / 1+e^-(A+Bx) 
+- Logistic regression involves finding the **best fit S-curve** where A is the intercept and B is the regression coefficient. The output of logistic regression is a probability score.
+
+#### Random Forest Classifier
+- The random forest is a classification algorithm consisting of **many decision trees. ** It uses bagging and features randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.
+- **Linear Regression**: In this method it attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is dependent variable.
+
+#### Ridge Regression ####
+- It is the method used for the analysis of multicollinearity in multiple regression data. It is most suitable when a data set contains a higher number of predictor variables than the number of observations.
+- Multicollinearity happens when predictor variables exhibit a correlation among themselves. It aims at reducing the standard error by adding some bias in the estimates of the regression.
+- The reduction of the standard error in regression estimates significantly increases the reliability of the estimates.
+
+**We tranined 4 models; 2 for classification and 2 for regression**
+- When we trained the **logistic regression** model the F1_score we got 82.11%. After tuning parameters using GridSearchCV we got F1_score as 83.36%.
+- When we trained **random forest classifier** model using best hyperparameters the F1_score we got 92.86%. After removing unimportant features, we got F1_score as 93.03%.
+- When we trained **linear Regression** the R2_score we got is 78.46%.
+- When we trained **Ridge Regression** the R2_score we got is 89%.
+
+*Finally, 2 pipelines are deployed:
+**1.Random Forest Classifier (Binary Classification)**
+**2.Ridge Regression for multi targets (EMI, ELA, ROI)**
 
 
 ## Deployment
