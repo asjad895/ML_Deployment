@@ -212,6 +212,11 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
     - Upon exploring the city attribute and checking the distribution
     - The two major cities with counts are Tallinn : 6467 , TALLINN : 5395
     - As we can see these two cities are same, so typing error exists in our dataset.
+
+<p align="center">
+  <img src="/resources/media/2.png">
+</p>
+
   - By removing the trailing space (_*) and converting to lower case, the inconsistent data entry is corrected.
 - Columns with missing values are indentified:
   - VerificationType 0.058 %, Gender 0.058 %, MonthlyPayment 8.56 %, County 26.5 %, City 6.51 %, Education 0.058 %
