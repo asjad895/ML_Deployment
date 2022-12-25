@@ -163,7 +163,7 @@ As the dataset is not clean, so preprocessing techniques were used to clean the 
    - Like for Gender attribute replacing [0,1,2] by ["Male","Woman","Undefined"] as per attribute definition of Gender.
 
 <p align="center">
-  <img src="/resources/media/1.png" width="250" height="250" alt="image">
+  <img src="/resources/media/1.png">
 </p>
 
    - When the data distribution is checked for these attributes, there are some unreplacable values like :
