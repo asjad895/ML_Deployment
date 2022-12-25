@@ -227,6 +227,11 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
   - The missing values are imputed with different approach for numerical and categorical attributes.
     - After checking the distribution of numerical attributes, it is observed that majority of attributes have highly skewed distribution
     - So to replace the missing values, the median of respective attribute is used instead of mean() because for skewed attributes, we don't use mean() for imputation
+
+<p align="center">
+  <img src="/resources/media/1.png">
+</p>
+
     - The missing values in categorical attributes are imputed with the mode() of respective attributes.
 
 ## Exploratory Data Analysis
