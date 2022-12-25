@@ -234,6 +234,10 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
 
     - The missing values in categorical attributes are imputed with the mode() of respective attributes.
 
+<p align="center">
+  <img src="/resources/media/4.png">
+</p>
+
 ## Exploratory Data Analysis
 **Introduction:**
 
