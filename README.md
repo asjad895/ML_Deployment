@@ -161,6 +161,7 @@ As the dataset is not clean, so preprocessing techniques were used to clean the 
    -  Verification Type, Language Code, Gender, Use of Loan, Education, Marital Status,EmployementStatus, OccupationArea, 
    - These attributes are converted to categorial type by using the respective attribute definition, to make these variables correct for Exploratory Data Analysis (EDA).
    - Like for Gender attribute replacing [0,1,2] by ["Male","Woman","Undefined"] as per attribute definition of Gender.
+![Screenshot](1.png)
    - When the data distribution is checked for these attributes, there are some unreplacable values like :
       - 22, 15, 10, 13, 7, 21 in 'LanguageCode' attribute.
       - -1 in 'UseOfLoan'
