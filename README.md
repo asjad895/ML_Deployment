@@ -384,6 +384,7 @@ Majority of loan applicants are male
   <img src="/resources/media/m4.png">
   <img src="/resources/media/m5.png">
 </p>
+
 - **FINAL observations are:**
   - Borrowers with low Loan Amount and High interest rates have greater chance of defaulting than with those having low amount and low interest.
   - Borrowers with high loan Amount and less chances have low chances of defaulting.
