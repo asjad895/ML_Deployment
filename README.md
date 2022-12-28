@@ -378,11 +378,11 @@ Majority of loan applicants are male
 **- Some of the multivariate plots are given below:**
 
 <p align="center">
-  <img src="/resources/media/m_1.png">
-  <img src="/resources/media/m_2.png">
-  <img src="/resources/media/m_3.png">
-  <img src="/resources/media/m_4.png">
-  <img src="/resources/media/m_5.png">
+  <img src="/resources/media/m1.png">
+  <img src="/resources/media/m2.png">
+  <img src="/resources/media/m3.png">
+  <img src="/resources/media/m4.png">
+  <img src="/resources/media/m5.png">
 </p>
 - **FINAL observations are:**
   - Borrowers with low Loan Amount and High interest rates have greater chance of defaulting than with those having low amount and low interest.
