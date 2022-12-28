@@ -253,6 +253,11 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
 - A custom function was coded to calculate the percentage_of_top_n_classes of any categorical column given the n and the column's data
+
+<p align="center">
+  <img src="/resources/media/eda_1.png">
+</p>
+
 - **The Final Observations are :**
   - The 53.6% customers have 'income and expenses verified' followed by 33.11% customers having 'income unverified'. And the remaining percentages include customers having 'income verified','income unverified, cross-referenced by phone','not set'
   - 66% percent customers are 'male', followed by 27% 'female' and remaining 7% undefined
