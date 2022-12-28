@@ -9,7 +9,7 @@ The completion of this project is dedicated to ([**TechnoColabs**](https://techn
 - [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)
 - [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)
 - [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)
-- [Asjad](https://www.linkedin.com/in/md-asjad-314501211)
+- [Md Asjadullah](https://www.linkedin.com/in/md-asjad-314501211)
 
 ## Understanding the Dataset
 Data for the study has been retrieved from a publicly available data set of a leading European P2P lending platform  ([**Bondora**](https://www.bondora.com/en/public-reports#dataset-file-format))
