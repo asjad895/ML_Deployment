@@ -326,10 +326,8 @@ Majority of loan applicants are male
 **- Some of the bivariate plots are given below:**
 
 <p align="center">
-  <img src="/resources/media/bi_3.png">
-  <img src="/resources/media/bi_4.png">
-  <img src="/resources/media/bi_5.png">
-  <img src="/resources/media/bi_6.png">
+  <img src="/resources/media/bi_3.png"><img src="/resources/media/bi_4.png">
+  <img src="/resources/media/bi_5.png"><img src="/resources/media/bi_6.png">
 </p>
 
 - **The Final Observation are:**
@@ -385,10 +383,8 @@ Majority of loan applicants are male
 **- Some of the multivariate plots are given below:**
 
 <p align="center">
-  <img src="/resources/media/m1.png">
-  <img src="/resources/media/m2.png">
-  <img src="/resources/media/m3.png">
-  <img src="/resources/media/m4.png">
+  <img src="/resources/media/m1.png"><img src="/resources/media/m2.png">
+  <img src="/resources/media/m3.png"><img src="/resources/media/m4.png">
   <img src="/resources/media/m5.png">
 </p>
 
