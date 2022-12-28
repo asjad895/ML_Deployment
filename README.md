@@ -409,7 +409,10 @@ Majority of loan applicants are male
   - The County and City attributes are very diverse, no clear relationships can be indentified from such diverse features.
 
 **Descriptive Statistics:**
-- The Descriptive Analysis of dataset can be found here ([**Descriptive Analysis**](https://colab.research.google.com/drive/1l-Z780JEs44L-PC8n-LU40IUP-oL7-Ph?usp=sharing))
+
+<p align="center">
+  <img src="/resources/media/descriptive_statistics.png">
+</p>
 
 ## Feature Engineering
 
