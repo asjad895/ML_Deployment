@@ -315,6 +315,7 @@ Majority of loan applicants are male
 - The correlation heat map is used to get the insights into the relation among different features
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
+
 **- Some of the bivariate plots are given below:**
 
 <p align="center">
@@ -375,6 +376,7 @@ Majority of loan applicants are male
 - In multivariate analysis, the relation and trend among multiple features is analyzed at same time to get insights into the dataset.
 - it becomes easy when we have performed bivariate analysis and plotted correlation heatmaps.
 - it is done among the features having good correlations to expose the trends and insights.
+
 **- Some of the multivariate plots are given below:**
 
 <p align="center">
