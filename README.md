@@ -253,6 +253,7 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
 - A custom function was coded to calculate the percentage_of_top_n_classes of any categorical column given the n and the column's data
+- Some of the univariate plots are given below:
 
 <p align="center">
   <img src="/resources/media/eda_1.png">
@@ -312,6 +313,16 @@ Majority of loan applicants are male
 - The correlation heat map is used to get the insights into the relation among different features
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
+- Some of the bivariate plots are given below:
+
+<p align="center">
+  <img src="/resources/media/eda_1.png">
+  <img src="/resources/media/eda_2.png">
+  <img src="/resources/media/eda_3.png">
+  <img src="/resources/media/eda_4.png">
+
+</p>
+
 - **The Final Observation are:**
   - The Default/non-default target has a low correlation with BidsPortfolioManager 0.12, LanguageCode 0.14, Country 0.18, Interest 0.17, LoanDuration 0.14
   - Correlation of EmploymentStatus with : BidsPortfolioManager 0.12, BidsApi 0.11, VerificationType 0.3, Gender 0.19
