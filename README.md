@@ -253,12 +253,14 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
 - A custom function was coded to calculate the percentage_of_top_n_classes of any categorical column given the n and the column's data
-- Some of the univariate plots are given below:
+**- Some of the univariate plots are given below:**
 
 <p align="center">
   <img src="/resources/media/eda_1.png">
   <img src="/resources/media/eda_2.png">
   <img src="/resources/media/eda_3.png">
+  <img src="/resources/media/eda_4.png">
+  <img src="/resources/media/eda_5.png">
 </p>
 
 - **The Final Observations are :**
@@ -313,14 +315,15 @@ Majority of loan applicants are male
 - The correlation heat map is used to get the insights into the relation among different features
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
-- Some of the bivariate plots are given below:
+**- Some of the bivariate plots are given below:**
 
 <p align="center">
-  <img src="/resources/media/eda_1.png">
-  <img src="/resources/media/eda_2.png">
-  <img src="/resources/media/eda_3.png">
-  <img src="/resources/media/eda_4.png">
-
+  <img src="/resources/media/bi_1.png">
+  <img src="/resources/media/bi_2.png">
+  <img src="/resources/media/bi_3.png">
+  <img src="/resources/media/bi_4.png">
+  <img src="/resources/media/bi_5.png">
+  <img src="/resources/media/bi_6.png">
 </p>
 
 - **The Final Observation are:**
@@ -372,6 +375,15 @@ Majority of loan applicants are male
 - In multivariate analysis, the relation and trend among multiple features is analyzed at same time to get insights into the dataset.
 - it becomes easy when we have performed bivariate analysis and plotted correlation heatmaps.
 - it is done among the features having good correlations to expose the trends and insights.
+**- Some of the multivariate plots are given below:**
+
+<p align="center">
+  <img src="/resources/media/m_1.png">
+  <img src="/resources/media/m_2.png">
+  <img src="/resources/media/m_3.png">
+  <img src="/resources/media/m_4.png">
+  <img src="/resources/media/m_5.png">
+</p>
 - **FINAL observations are:**
   - Borrowers with low Loan Amount and High interest rates have greater chance of defaulting than with those having low amount and low interest.
   - Borrowers with high loan Amount and less chances have low chances of defaulting.
