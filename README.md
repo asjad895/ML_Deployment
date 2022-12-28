@@ -248,7 +248,7 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
   - Bivariate Analysis
   - Multivariate Analysis
 
-**Univariate Analysis:**
+###**Univariate Analysis:**
 - In univaraite analysis, each feature is analyzed and explored individually to get hidden insights into it.
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
 - The numerical features are analyzed and explored using Seaborn kdeplot and Displot
@@ -310,11 +310,12 @@ Majority of loan applicants are male
   - More customers have AmountOfPreviousLoansBeforeLoan in range 0 to 15000.
   - PreviousRepaymentsBeforeLoan have high customers density in range 0 5000.
   
-**Bivariate Analysis:**
+###**Bivariate Analysis:**
 - In bivaraite analysis, the features are analyzed and explored with respect to each other to get hidden insights into the relation of different featuers
 - The correlation heat map is used to get the insights into the relation among different features
 - The categorical features are analyzed and explored using Seaborn countplot. The countplot is like an histogram for categorical attributes
-- The numerical features are analyzed and explored using Seaborn kdeplot and Displot
+- The numerical features are analyzed and explored using Seaborn kdeplot and Displot.
+####**The Correlation Heat maps are shown below:**
 
 **- Some of the bivariate plots are given below:**
 
@@ -372,7 +373,7 @@ Majority of loan applicants are male
   - Tenants, prefurnised property owners are likely to default more as defualt ratio is more this class than owners.
   - The customers with HR rating are defaulting more as this class has more default ratio than F class. we can see from plot of Rating.
 
-**Multivariate Analysis:**
+###**Multivariate Analysis:**
 - In multivariate analysis, the relation and trend among multiple features is analyzed at same time to get insights into the dataset.
 - it becomes easy when we have performed bivariate analysis and plotted correlation heatmaps.
 - it is done among the features having good correlations to expose the trends and insights.
