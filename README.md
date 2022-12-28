@@ -2,6 +2,9 @@
 The credit risk is analyzed to measure the possibility of loss as result of borrower failing to repay a loan or meeting the loan obligations. The more the credit risk the more it has a negative impact on performance of bank. The credit risk analysis is important because it allows the bank to plan strategies to avoid a negative outcome ahead in future.
 - In this project we analyzed the credit risk on individual loans, maximizing the Return on Investment (ROI) by predicting an Eligible Loan Amount and minimizing the financial risk between the lending firm Bandora and the borrowers.
 
+## Acknowledgment
+The completion of this project is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.
+
 ## Understanding the Dataset
 Data for the study has been retrieved from a publicly available data set of a leading European P2P lending platform  ([**Bondora**](https://www.bondora.com/en/public-reports#dataset-file-format))
 
@@ -515,4 +518,3 @@ Our deployed app can be accessed by following link ([**Credit-Risk-Analysis**](h
 - Streamlit is an open source app framework in Python language. 
 - It helps us create web apps for data science and machine learning. 
 - It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc.
-
