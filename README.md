@@ -256,6 +256,8 @@ Using the techniques of data wrangling, errors were removed, gaps in the dataset
 
 <p align="center">
   <img src="/resources/media/eda_1.png">
+  <img src="/resources/media/eda_2.png">
+  <img src="/resources/media/eda_3.png">
 </p>
 
 - **The Final Observations are :**
