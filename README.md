@@ -5,6 +5,11 @@ The credit risk is analyzed to measure the possibility of loss as result of borr
 ## Acknowledgment
 The completion of this project is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.
 
+### Project Team
+- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)
+- [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)
+- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)
+
 ## Understanding the Dataset
 Data for the study has been retrieved from a publicly available data set of a leading European P2P lending platform  ([**Bondora**](https://www.bondora.com/en/public-reports#dataset-file-format))
 
