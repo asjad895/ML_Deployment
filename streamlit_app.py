@@ -199,7 +199,7 @@ if st.button(label="Check Status"):
 st.subheader('App Deployment Team')
 st.markdown("The completion of this project is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
 
-st.markdown("Project Team")
+st.markdown("###Project Team")
 st.markdown("- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)")
 st.markdown("- [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)")
 st.markdown("- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)")
