@@ -105,33 +105,34 @@ st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
 st.subheader('Personal Background')
-Gender = st.selectbox('Gender',("male","woman","undefined"))
-Age= st.text_input('Age')
-Country = st.selectbox('Country',("ee","fi","es","sk"))
-Education = st.selectbox('Education',("secondary education","higher education","vocational education","basic education",
+with st.expander("expand"):
+  Gender = st.selectbox('Gender',("male","woman","undefined"))
+  Age= st.text_input('Age')
+  Country = st.selectbox('Country',("ee","fi","es","sk"))
+  Education = st.selectbox('Education',("secondary education","higher education","vocational education","basic education",
                                    "primary education","not_present"))
-MaritalStatus = st.selectbox('Marital Status',("single","married","cohabitant","divorced","widow","not_specified"))
-OccupationArea = st.selectbox('Occupation Area',("retail and wholesale","construction","processing","transport and warehousing",
+  MaritalStatus = st.selectbox('Marital Status',("single","married","cohabitant","divorced","widow","not_specified"))
+  OccupationArea = st.selectbox('Occupation Area',("retail and wholesale","construction","processing","transport and warehousing",
                                                  "healtcare and social help","hospitality and catering","info and telecom",
                                                  "civil service & military","education","finance and insurance","agriculture,forestry and fishing",
                                                  "administrative","energy","art and entertainment","research","real-estate","utlities","mining",
                                                 "not set","other"))
-
-EmploymentStatus = st.selectbox('Employment Status',("fully employed","entrepneur","retiree","self employed","partially employed","not set"))
-EmploymentDurationCurrentEmployer = st.selectbox('Employment Duration Current Employer',("morethan5years","upto1year","upto5years","upto2years",
+  
+  EmploymentStatus = st.selectbox('Employment Status',("fully employed","entrepneur","retiree","self employed","partially employed","not set"))
+  EmploymentDurationCurrentEmployer = st.selectbox('Employment Duration Current Employer',("morethan5years","upto1year","upto5years","upto2years",
                                                                                          "upto3years","retiree","upto4years","other","trialperiod"))
 
-Language = st.selectbox('Language',("estonian","english", "russian","finnish", "german","spanish","slovakian"))
-HomeOwnershipType = st.selectbox('Home Ownership Type',("homeless","owner","living with parents","tenant, pre-furnished property",
+  Language = st.selectbox('Language',("estonian","english", "russian","finnish", "german","spanish","slovakian"))
+  HomeOwnershipType = st.selectbox('Home Ownership Type',("homeless","owner","living with parents","tenant, pre-furnished property",
                                                         "tenant, unfurnished property","council house","joint tenant","joint ownership","mortgage",
                                                         "owner with encumbrance","other"))
-Restructured = st.selectbox('Restructured',("yes","no"))
-IncomeTotal = st.text_input('Total Icome')
-LiabilitiesTotal = st.text_input('Total Liabilities')
-ExistingLiabilities = st.text_input('Existing Liabilities')
-RefinanceLiabilities = st.text_input('Refinance Liabilities')
-DebtToIncome = st.text_input('Debt To Income')
-FreeCash = st.text_input('Free Cash')
+  Restructured = st.selectbox('Restructured',("yes","no"))
+  IncomeTotal = st.text_input('Total Icome')
+  LiabilitiesTotal = st.text_input('Total Liabilities')
+  ExistingLiabilities = st.text_input('Existing Liabilities')
+  RefinanceLiabilities = st.text_input('Refinance Liabilities')
+  DebtToIncome = st.text_input('Debt To Income')
+  FreeCash = st.text_input('Free Cash')
 
 
 st.subheader('Loan Details')
