@@ -105,6 +105,11 @@ st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
 st.subheader('Personal Background')
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9,tab10, tab11,tab12,tab13, tab14,tab15,tab16,tab17 = st.tabs(["Gender", "Age", "Country","Education","MaritalStatus",
+                                                               "OccupationArea","EmploymentStatus","EmploymentDurationCurrentEmployer",
+                                                               "Language","HomeOwnershipType","Restructured", "IncomeTotal",
+                                                               "LiabilitiesTotal","ExistingLiabilities","RefinanceLiabilities",
+                                                               "DebtToIncome","FreeCash"])
 with st.expander("**fill here**"):
   Gender = st.selectbox('Gender',("male","woman","undefined"))
   Age= st.text_input('Age')
