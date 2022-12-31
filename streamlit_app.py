@@ -136,45 +136,50 @@ with st.expander("**fill below**"):
 
 
 st.subheader('Loan Details')
-UseOfLoan = st.selectbox('Use Of Loan',("not set","home improvement", "loan consolidation","vehicle", "business","travel","health",
+with st.expander("**fill below**"):
+  UseOfLoan = st.selectbox('Use Of Loan',("not set","home improvement", "loan consolidation","vehicle", "business","travel","health",
                                        "education","real estate","purchase of machinery equipment","other  business",
                                        "accounts receivable financing","working capital financing","acquisition of stocks",
                                        "acquisition of real estate","construction finance"))
 
-NoOfPreviousLoansBeforeLoan = st.text_input('No Of Previous Loans Before Loan')
-AmountOfPreviousLoansBeforeLoan = st.text_input('Amount Of Previous Loans Before Loan')
-NewCreditCustomer = st.selectbox('New Credit Customer',("new","existing"))
-VerificationType = st.selectbox('New Credit Customer',("income and expenses verified","income unverified","income verified",
+  NoOfPreviousLoansBeforeLoan = st.text_input('No Of Previous Loans Before Loan')
+  AmountOfPreviousLoansBeforeLoan = st.text_input('Amount Of Previous Loans Before Loan')
+  NewCreditCustomer = st.selectbox('New Credit Customer',("new","existing"))
+  VerificationType = st.selectbox('New Credit Customer',("income and expenses verified","income unverified","income verified",
                                                        "income unverified, cross-referenced by phone","not set"))
 
 
-LoanDuration = st.text_input('Loan Duration (in months)') 
-AppliedAmount = st.text_input('Applied Loan Amount')
-Amount = st.text_input('Amount (granted)')
-Interest = st.text_input('Interest')
-MonthlyPayment = st.text_input('Monthly Payment')
+  LoanDuration = st.text_input('Loan Duration (in months)') 
+  AppliedAmount = st.text_input('Applied Loan Amount')
+  Amount = st.text_input('Amount (granted)')
+  Interest = st.text_input('Interest')
+  MonthlyPayment = st.text_input('Monthly Payment')
 
 
 
 st.subheader('Payment Details')
-PreviousEarlyRepaymentsCountBeforeLoan = st.text_input('Previous Early Repayments Count Before Loan')
-PreviousRepaymentsBeforeLoan = st.text_input('PreviousRepaymentsBeforeLoan')
-MonthlyPaymentDay = st.text_input('MonthlyPaymentDay (digit)')
-PrincipalPaymentsMade = st.text_input('Principal Payments Made') 
-InterestAndPenaltyPaymentsMade = st.text_input('Interest and Penalty Payments Made')
+with st.expander("**fill below**"):
+  PreviousEarlyRepaymentsCountBeforeLoan = st.text_input('Previous Early Repayments Count Before Loan')
+  PreviousRepaymentsBeforeLoan = st.text_input('PreviousRepaymentsBeforeLoan')
+  MonthlyPaymentDay = st.text_input('MonthlyPaymentDay (digit)')
+  PrincipalPaymentsMade = st.text_input('Principal Payments Made') 
+  InterestAndPenaltyPaymentsMade = st.text_input('Interest and Penalty Payments Made')
 
 st.subheader('Balance Details')
-PrincipalBalance = st.text_input('PrincipalBalance')
-InterestAndPenaltyBalance = st.text_input('InterestAndPenaltyBalance')
+with st.expander("**fill below**"):
+  PrincipalBalance = st.text_input('PrincipalBalance')
+  InterestAndPenaltyBalance = st.text_input('InterestAndPenaltyBalance')
 
 st.subheader('Amount of Investment offers made via')
-BidsPortfolioManager = st.text_input('BidsPortfolioManger')
-BidsApi = st.text_input('BidsApi')
-BidsManual = st.text_input('BidsManual')
+with st.expander("**fill below**"):
+  BidsPortfolioManager = st.text_input('BidsPortfolioManger')
+  BidsApi = st.text_input('BidsApi')
+  BidsManual = st.text_input('BidsManual')
 
 st.subheader('Other')
-Rating = st.selectbox('Rating',("a","aa", "b","c", "d","e","f","hr"))
-CreditScoreEsMicroL = st.selectbox('CreditScoreEsMicroL',("m1","m2", "m3","m4", "m5","m6","m7","m8","m9","m10","not set"))
+with st.expander("**fill below**"):
+  Rating = st.selectbox('Rating',("a","aa", "b","c", "d","e","f","hr"))
+  CreditScoreEsMicroL = st.selectbox('CreditScoreEsMicroL',("m1","m2", "m3","m4", "m5","m6","m7","m8","m9","m10","not set"))
 
 st.header('Loan Application Status')
 if st.button(label="Check Status"):
