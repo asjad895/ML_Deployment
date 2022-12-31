@@ -192,11 +192,21 @@ if st.button(label="Check Status"):
       st.write("Equated Monthly Installment (EMI) = ",Regressor_result[0,0])
       st.write("Eligible Loan Amount (ELA) = ",Regressor_result[0,1])
       st.write("Return on Investment (ROI) = ", Regressor_result[0,2])
-      
-      
-      
-  if result=="Not Defaulter":
-    st.write("Congratulations! Your loan is Approved!")
   
+  if result=="Not Defaulter":
+    st.write("Your loan is Approved!")
+
+st.subheader('App Deployment Team')
+st.markdown(The completion of this project is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). 
+            Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) 
+            and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) 
+            for leading us with precious guidance and experience throught the internship period)
+
+### Project Team
+- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)
+- [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)
+- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)
+- [Md Asjadullah](https://www.linkedin.com/in/md-asjad-314501211)
+- [Robair Garas](https://www.linkedin.com/in/robairgaras) 
 
 
