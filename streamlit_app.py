@@ -104,10 +104,10 @@ def Regressor():
 st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
-st.subheader('Personal Background')
 tab1, tab2 = st.tabs(["Form", "Acknowledgment"])
 
 with tab1:
+  st.subheader('Personal Background')
   with st.expander("**fill here**"):
     Gender = st.selectbox('Gender',("male","woman","undefined"))
     Age= st.text_input('Age')
