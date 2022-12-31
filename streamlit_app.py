@@ -197,7 +197,7 @@ if st.button(label="Check Status"):
     st.write("Your loan is Approved!")
 
 st.subheader('App Deployment Team')
-st.markdown("The completion of the project ([**Credit Risk Analysis**](https://github.com/Arslan1k/ML_Deployment)) is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
+st.markdown("The completion of the project [**Credit Risk Analysis**](https://github.com/Arslan1k/ML_Deployment) is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
 
 st.markdown("**Project Team**")
 st.markdown("- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)")
