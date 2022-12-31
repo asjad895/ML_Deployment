@@ -105,121 +105,119 @@ st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
 st.subheader('Personal Background')
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9,tab10, tab11,tab12,tab13, tab14,tab15,tab16,tab17 = st.tabs(["Gender", "Age", "Country","Education","MaritalStatus",
-                                                               "OccupationArea","EmploymentStatus"])
-tab7,tab8,tab9,tab10,tab11,tab12 = st.tabs(["EmploymentDurationCurrentEmployer",
-                                                               "Language","HomeOwnershipType","Restructured", "IncomeTotal",
-                                                               "LiabilitiesTotal"])
-ta13,tab14,tab15,tab16,tab17 = st.tabs(["ExistingLiabilities","RefinanceLiabilities",
-                                                               "DebtToIncome","FreeCash"])
-with st.expander("**fill here**"):
-  Gender = st.selectbox('Gender',("male","woman","undefined"))
-  Age= st.text_input('Age')
-  Country = st.selectbox('Country',("ee","fi","es","sk"))
-  Education = st.selectbox('Education',("secondary education","higher education","vocational education","basic education",
-                                   "primary education","not_present"))
-  MaritalStatus = st.selectbox('Marital Status',("single","married","cohabitant","divorced","widow","not_specified"))
-  OccupationArea = st.selectbox('Occupation Area',("retail and wholesale","construction","processing","transport and warehousing",
-                                                 "healtcare and social help","hospitality and catering","info and telecom",
-                                                 "civil service & military","education","finance and insurance","agriculture,forestry and fishing",
-                                                 "administrative","energy","art and entertainment","research","real-estate","utlities","mining",
-                                                "not set","other"))
-  
-  EmploymentStatus = st.selectbox('Employment Status',("fully employed","entrepneur","retiree","self employed","partially employed","not set"))
-  EmploymentDurationCurrentEmployer = st.selectbox('Employment Duration Current Employer',("morethan5years","upto1year","upto5years","upto2years",
-                                                                                         "upto3years","retiree","upto4years","other","trialperiod"))
+tab1, tab2 = st.tabs(["Form", "Acknowledgment"])
 
-  Language = st.selectbox('Language',("estonian","english", "russian","finnish", "german","spanish","slovakian"))
-  HomeOwnershipType = st.selectbox('Home Ownership Type',("homeless","owner","living with parents","tenant, pre-furnished property",
-                                                        "tenant, unfurnished property","council house","joint tenant","joint ownership","mortgage",
-                                                        "owner with encumbrance","other"))
-  Restructured = st.selectbox('Restructured',("yes","no"))
-  IncomeTotal = st.text_input('Total Icome')
-  LiabilitiesTotal = st.text_input('Total Liabilities')
-  ExistingLiabilities = st.text_input('Existing Liabilities')
-  RefinanceLiabilities = st.text_input('Refinance Liabilities')
-  DebtToIncome = st.text_input('Debt To Income')
-  FreeCash = st.text_input('Free Cash')
+with tab1:
+  with st.expander("**fill here**"):
+    Gender = st.selectbox('Gender',("male","woman","undefined"))
+    Age= st.text_input('Age')
+    Country = st.selectbox('Country',("ee","fi","es","sk"))
+    Education = st.selectbox('Education',("secondary education","higher education","vocational education","basic education",
+                                     "primary education","not_present"))
+    MaritalStatus = st.selectbox('Marital Status',("single","married","cohabitant","divorced","widow","not_specified"))
+    OccupationArea = st.selectbox('Occupation Area',("retail and wholesale","construction","processing","transport and warehousing",
+                                                   "healtcare and social help","hospitality and catering","info and telecom",
+                                                   "civil service & military","education","finance and insurance","agriculture,forestry and fishing",
+                                                   "administrative","energy","art and entertainment","research","real-estate","utlities","mining",
+                                                  "not set","other"))
+
+    EmploymentStatus = st.selectbox('Employment Status',("fully employed","entrepneur","retiree","self employed","partially employed","not set"))
+    EmploymentDurationCurrentEmployer = st.selectbox('Employment Duration Current Employer',("morethan5years","upto1year","upto5years","upto2years",
+                                                                                           "upto3years","retiree","upto4years","other","trialperiod"))
+
+    Language = st.selectbox('Language',("estonian","english", "russian","finnish", "german","spanish","slovakian"))
+    HomeOwnershipType = st.selectbox('Home Ownership Type',("homeless","owner","living with parents","tenant, pre-furnished property",
+                                                          "tenant, unfurnished property","council house","joint tenant","joint ownership","mortgage",
+                                                          "owner with encumbrance","other"))
+    Restructured = st.selectbox('Restructured',("yes","no"))
+    IncomeTotal = st.text_input('Total Icome')
+    LiabilitiesTotal = st.text_input('Total Liabilities')
+    ExistingLiabilities = st.text_input('Existing Liabilities')
+    RefinanceLiabilities = st.text_input('Refinance Liabilities')
+    DebtToIncome = st.text_input('Debt To Income')
+    FreeCash = st.text_input('Free Cash')
 
 
-st.subheader('Loan Details')
-with st.expander("**fill here**"):
-  UseOfLoan = st.selectbox('Use Of Loan',("not set","home improvement", "loan consolidation","vehicle", "business","travel","health",
-                                       "education","real estate","purchase of machinery equipment","other  business",
-                                       "accounts receivable financing","working capital financing","acquisition of stocks",
-                                       "acquisition of real estate","construction finance"))
+  st.subheader('Loan Details')
+  with st.expander("**fill here**"):
+    UseOfLoan = st.selectbox('Use Of Loan',("not set","home improvement", "loan consolidation","vehicle", "business","travel","health",
+                                         "education","real estate","purchase of machinery equipment","other  business",
+                                         "accounts receivable financing","working capital financing","acquisition of stocks",
+                                         "acquisition of real estate","construction finance"))
 
-  NoOfPreviousLoansBeforeLoan = st.text_input('No Of Previous Loans Before Loan')
-  AmountOfPreviousLoansBeforeLoan = st.text_input('Amount Of Previous Loans Before Loan')
-  NewCreditCustomer = st.selectbox('New Credit Customer',("new","existing"))
-  VerificationType = st.selectbox('New Credit Customer',("income and expenses verified","income unverified","income verified",
-                                                       "income unverified, cross-referenced by phone","not set"))
+    NoOfPreviousLoansBeforeLoan = st.text_input('No Of Previous Loans Before Loan')
+    AmountOfPreviousLoansBeforeLoan = st.text_input('Amount Of Previous Loans Before Loan')
+    NewCreditCustomer = st.selectbox('New Credit Customer',("new","existing"))
+    VerificationType = st.selectbox('New Credit Customer',("income and expenses verified","income unverified","income verified",
+                                                         "income unverified, cross-referenced by phone","not set"))
 
 
-  LoanDuration = st.text_input('Loan Duration (in months)') 
-  AppliedAmount = st.text_input('Applied Loan Amount')
-  Amount = st.text_input('Amount (granted)')
-  Interest = st.text_input('Interest')
-  MonthlyPayment = st.text_input('Monthly Payment')
+    LoanDuration = st.text_input('Loan Duration (in months)') 
+    AppliedAmount = st.text_input('Applied Loan Amount')
+    Amount = st.text_input('Amount (granted)')
+    Interest = st.text_input('Interest')
+    MonthlyPayment = st.text_input('Monthly Payment')
 
 
 
-st.subheader('Payment Details')
-with st.expander("**fill here**"):
-  PreviousEarlyRepaymentsCountBeforeLoan = st.text_input('Previous Early Repayments Count Before Loan')
-  PreviousRepaymentsBeforeLoan = st.text_input('PreviousRepaymentsBeforeLoan')
-  MonthlyPaymentDay = st.text_input('MonthlyPaymentDay (digit)')
-  PrincipalPaymentsMade = st.text_input('Principal Payments Made') 
-  InterestAndPenaltyPaymentsMade = st.text_input('Interest and Penalty Payments Made')
+  st.subheader('Payment Details')
+  with st.expander("**fill here**"):
+    PreviousEarlyRepaymentsCountBeforeLoan = st.text_input('Previous Early Repayments Count Before Loan')
+    PreviousRepaymentsBeforeLoan = st.text_input('PreviousRepaymentsBeforeLoan')
+    MonthlyPaymentDay = st.text_input('MonthlyPaymentDay (digit)')
+    PrincipalPaymentsMade = st.text_input('Principal Payments Made') 
+    InterestAndPenaltyPaymentsMade = st.text_input('Interest and Penalty Payments Made')
 
-st.subheader('Balance Details')
-with st.expander("**fill here**"):
-  PrincipalBalance = st.text_input('PrincipalBalance')
-  InterestAndPenaltyBalance = st.text_input('InterestAndPenaltyBalance')
+  st.subheader('Balance Details')
+  with st.expander("**fill here**"):
+    PrincipalBalance = st.text_input('PrincipalBalance')
+    InterestAndPenaltyBalance = st.text_input('InterestAndPenaltyBalance')
 
-st.subheader('Amount of Investment offers made via')
-with st.expander("**fill here**"):
-  BidsPortfolioManager = st.text_input('BidsPortfolioManger')
-  BidsApi = st.text_input('BidsApi')
-  BidsManual = st.text_input('BidsManual')
+  st.subheader('Amount of Investment offers made via')
+  with st.expander("**fill here**"):
+    BidsPortfolioManager = st.text_input('BidsPortfolioManger')
+    BidsApi = st.text_input('BidsApi')
+    BidsManual = st.text_input('BidsManual')
 
-st.subheader('Other')
-with st.expander("**fill here**"):
-  Rating = st.selectbox('Rating',("a","aa", "b","c", "d","e","f","hr"))
-  CreditScoreEsMicroL = st.selectbox('CreditScoreEsMicroL',("m1","m2", "m3","m4", "m5","m6","m7","m8","m9","m10","not set"))
+  st.subheader('Other')
+  with st.expander("**fill here**"):
+    Rating = st.selectbox('Rating',("a","aa", "b","c", "d","e","f","hr"))
+    CreditScoreEsMicroL = st.selectbox('CreditScoreEsMicroL',("m1","m2", "m3","m4", "m5","m6","m7","m8","m9","m10","not set"))
 
-st.header('Loan Application Status')
-if st.button(label="Check Status"):
-  with st.spinner('Analyzing the Provided Information ...'):
-    time.sleep(2)
-  result = Classifier()
-  st.spinner(text="Analyzing the Information")
-  
-  if result=="Defaulter":
-    st.write("Based on details provided, the user may default so loan is not approved, Thanks!")
-    time.sleep(2)
-    with st.spinner('Predicting Eligible Loan details ...'):
-      Regressor_result = np.array(Regressor())
+  st.header('Loan Application Status')
+  if st.button(label="Check Status"):
+    with st.spinner('Analyzing the Provided Information ...'):
       time.sleep(2)
-      st.header('Eligibile Loan Amount Details')
-      st.write("Equated Monthly Installment (EMI) = ",Regressor_result[0,0])
-      st.write("Eligible Loan Amount (ELA) = ",Regressor_result[0,1])
-      st.write("Return on Investment (ROI) = ", Regressor_result[0,2])
-  
-  if result=="Not Defaulter":
-    st.write("Your loan is Approved!")
+    result = Classifier()
+    st.spinner(text="Analyzing the Information")
+
+    if result=="Defaulter":
+      st.write("Based on details provided, the user may default so loan is not approved, Thanks!")
+      time.sleep(2)
+      with st.spinner('Predicting Eligible Loan details ...'):
+        Regressor_result = np.array(Regressor())
+        time.sleep(2)
+        st.header('Eligibile Loan Amount Details')
+        st.write("Equated Monthly Installment (EMI) = ",Regressor_result[0,0])
+        st.write("Eligible Loan Amount (ELA) = ",Regressor_result[0,1])
+        st.write("Return on Investment (ROI) = ", Regressor_result[0,2])
+
+    if result=="Not Defaulter":
+      st.write("Your loan is Approved!")
 
 st.header("")
-st.caption("__________________________________________________________________")
-st.subheader('Acknowledgment')
-st.markdown("The completion of the project [Credit Risk Analysis](https://github.com/Arslan1k/ML_Deployment) is dedicated to ([TechnoColabs](https://technocolabs.com/)). Special thanks to CEO ([Yasin Shah](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([Mitesh Verma](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
+with tab2:
+  
+  st.caption("__________________________________________________________________")
+  st.subheader('Acknowledgment')
+  st.markdown("The completion of the project [Credit Risk Analysis](https://github.com/Arslan1k/ML_Deployment) is dedicated to ([TechnoColabs](https://technocolabs.com/)). Special thanks to CEO ([Yasin Shah](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([Mitesh Verma](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
 
-st.markdown("**Project Team**")
-st.markdown("- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)")
-st.markdown("- [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)")
-st.markdown("- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)")
-st.markdown("- [Md Asjadullah](https://www.linkedin.com/in/md-asjad-314501211)")
-st.markdown("- [Robair Garas](https://www.linkedin.com/in/robairgaras) ")
+  st.markdown("**Project Team**")
+  st.markdown("- [Arslan Mehmood](https://www.linkedin.com/in/arslan-mehmood-1k/) (Team Leader)")
+  st.markdown("- [Kalinga Moharana](https://www.linkedin.com/in/kalinga-moharana-174881205/)")
+  st.markdown("- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)")
+  st.markdown("- [Md Asjadullah](https://www.linkedin.com/in/md-asjad-314501211)")
+  st.markdown("- [Robair Garas](https://www.linkedin.com/in/robairgaras) ")
 
 
 
