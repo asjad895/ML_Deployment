@@ -105,7 +105,7 @@ st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
 st.subheader('Personal Background')
-with st.expander("expand"):
+with st.expander("**fill below**"):
   Gender = st.selectbox('Gender',("male","woman","undefined"))
   Age= st.text_input('Age')
   Country = st.selectbox('Country',("ee","fi","es","sk"))
