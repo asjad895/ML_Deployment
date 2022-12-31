@@ -103,7 +103,7 @@ def Regressor():
 
 st.title('Bandora Loan Approval Dashboard')
 
-tab1, tab2 = st.tabs(["Form", "Acknowledgment"])
+tab1, tab2 = st.tabs(["Credit Risk Analysis", "Acknowledgment"])
 
 with tab1:
   st.header("Borrower's Information")
