@@ -520,7 +520,7 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 
 
 ## Deployment
-Our deployed app can be accessed by following link ([**Credit-Risk-Analysis**](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/))
+Our deployed app can be accessed by following link ([**Credit-Risk-Analysis App**](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/))
 
 ### Streamlit
 - Streamlit is an open source app framework in Python language. 
