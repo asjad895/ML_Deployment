@@ -17,7 +17,7 @@ Data for the study has been retrieved from a publicly available data set of a le
 
 - The dataset contains the individual loan details from **2009** to **2019** having both the **defaulted** and **non-defaulted** loans
 - The dataset does not contain any target attributes for 
-  - defaulted, non-defauted borrowers
+  - defaulted, non-defaulted borrowers
   - Eligible Loan Amount (ELA)
   - Return on Investment (ROI)
   - Equated Monthly Installment (EMI) 
