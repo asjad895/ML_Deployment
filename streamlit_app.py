@@ -195,7 +195,9 @@ if st.button(label="Check Status"):
   
   if result=="Not Defaulter":
     st.write("Your loan is Approved!")
-st.subheader("__________________________________________")
+
+st.header("")
+st.text("__________________________________________")
 st.subheader('App Deployment Team')
 st.markdown("The completion of the project [**Credit Risk Analysis**](https://github.com/Arslan1k/ML_Deployment) is dedicated to ([**TechnoColabs**](https://technocolabs.com/)). Special thanks to CEO ([**Yasin Shah**](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([**Mitesh Verma**](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
 
