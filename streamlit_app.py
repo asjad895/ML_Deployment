@@ -102,7 +102,6 @@ def Regressor():
   return prediction
 
 st.title('Bandora Loan Approval Dashboard')
-st.markdown("should some text be written here ?")
 
 tab1, tab2 = st.tabs(["Credit Risk Analysis", "Acknowledgment"])
 
