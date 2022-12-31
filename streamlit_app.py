@@ -5,8 +5,8 @@ import joblib
 import sklearn
 import time
 
-classifier_pipeline = joblib.load('/tree/main/resources/ML_artifacts/RFC_pipeline_FINAL.joblib')
-Regressor_pipeline = joblib.load('/tree/main/resources/ML_artifacts/RR_pipeline_FINAL.joblib')
+classifier_pipeline = joblib.load('tree/main/resources/ML_artifacts/RFC_pipeline_FINAL.joblib')
+Regressor_pipeline = joblib.load('tree/main/resources/ML_artifacts/RR_pipeline_FINAL.joblib')
 
 def create_input_Dataframe():
   
