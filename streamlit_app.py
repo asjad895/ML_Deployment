@@ -106,6 +106,7 @@ st.title('Bandora Loan Approval Dashboard')
 tab1, tab2 = st.tabs(["Credit Risk Analysis", "Acknowledgment"])
 
 with tab1:
+  st.markdown("The credit risk is analyzed to measure the possibility of loss as result of borrower failing to repay a loan or meeting the loan obligations. The more the credit risk the more it has a negative impact on performance of bank. The credit risk analysis is important because it allows the bank to plan strategies to avoid a negative outcome ahead in future.")
   st.header("Borrower's Information")
   st.subheader('Personal Background')
   with st.expander("**fill here**"):
