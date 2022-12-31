@@ -105,7 +105,7 @@ st.title('Bandora Loan Approval Dashboard')
 st.header("Borrower's Information")
 
 st.subheader('Personal Background')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   Gender = st.selectbox('Gender',("male","woman","undefined"))
   Age= st.text_input('Age')
   Country = st.selectbox('Country',("ee","fi","es","sk"))
@@ -136,7 +136,7 @@ with st.expander("**fill below**"):
 
 
 st.subheader('Loan Details')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   UseOfLoan = st.selectbox('Use Of Loan',("not set","home improvement", "loan consolidation","vehicle", "business","travel","health",
                                        "education","real estate","purchase of machinery equipment","other  business",
                                        "accounts receivable financing","working capital financing","acquisition of stocks",
@@ -158,7 +158,7 @@ with st.expander("**fill below**"):
 
 
 st.subheader('Payment Details')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   PreviousEarlyRepaymentsCountBeforeLoan = st.text_input('Previous Early Repayments Count Before Loan')
   PreviousRepaymentsBeforeLoan = st.text_input('PreviousRepaymentsBeforeLoan')
   MonthlyPaymentDay = st.text_input('MonthlyPaymentDay (digit)')
@@ -166,18 +166,18 @@ with st.expander("**fill below**"):
   InterestAndPenaltyPaymentsMade = st.text_input('Interest and Penalty Payments Made')
 
 st.subheader('Balance Details')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   PrincipalBalance = st.text_input('PrincipalBalance')
   InterestAndPenaltyBalance = st.text_input('InterestAndPenaltyBalance')
 
 st.subheader('Amount of Investment offers made via')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   BidsPortfolioManager = st.text_input('BidsPortfolioManger')
   BidsApi = st.text_input('BidsApi')
   BidsManual = st.text_input('BidsManual')
 
 st.subheader('Other')
-with st.expander("**fill below**"):
+with st.expander("**fill here**"):
   Rating = st.selectbox('Rating',("a","aa", "b","c", "d","e","f","hr"))
   CreditScoreEsMicroL = st.selectbox('CreditScoreEsMicroL',("m1","m2", "m3","m4", "m5","m6","m7","m8","m9","m10","not set"))
 
