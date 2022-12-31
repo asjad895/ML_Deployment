@@ -208,7 +208,6 @@ with tab1:
 st.header("")
 with tab2:
   
-  st.caption("__________________________________________________________________")
   st.subheader('Acknowledgment')
   st.markdown("The completion of the project [Credit Risk Analysis](https://github.com/Arslan1k/ML_Deployment) is dedicated to ([TechnoColabs](https://technocolabs.com/)). Special thanks to CEO ([Yasin Shah](https://www.linkedin.com/in/yasinshah9598/)) and Mentor ([Mitesh Verma](https://www.linkedin.com/in/mitesh-verma-049b12b3/)) for leading us with precious guidance and experience throught the internship period.")
 
@@ -218,6 +217,7 @@ with tab2:
   st.markdown("- [Aditya Kurhade](https://www.linkedin.com/in/kurhadeaditya//)")
   st.markdown("- [Md Asjadullah](https://www.linkedin.com/in/md-asjad-314501211)")
   st.markdown("- [Robair Garas](https://www.linkedin.com/in/robairgaras) ")
+  st.caption("__________________________________________________________________")
 
 
 
