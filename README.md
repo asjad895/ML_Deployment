@@ -524,8 +524,8 @@ Our deployed app can be accessed by following link ([**Credit-Risk-Analysis App*
 
 <p align="center">
   <img src="/resources/media/app_1.jpg">
-  <img src="/resources/media/app2.jpg">
-  <img src="/resources/media/app3.jpg">
+  <img src="/resources/media/app_2.jpg">
+  <img src="/resources/media/app_3.jpg">
 </p>
 
 ### Streamlit
