@@ -522,6 +522,12 @@ where u is the mean of the training samples or zero if with_mean=False, and s is
 ## Deployment
 Our deployed app can be accessed by following link ([**Credit-Risk-Analysis App**](https://arslan1k-ml-deployment-streamlit-app-hy7s2q.streamlit.app/))
 
+<p align="center">
+  <img src="/resources/media/app1.jpg">
+  <img src="/resources/media/app2.jpg">
+  <img src="/resources/media/app3.jpg">
+</p>
+
 ### Streamlit
 - Streamlit is an open source app framework in Python language. 
 - It helps us create web apps for data science and machine learning. 
